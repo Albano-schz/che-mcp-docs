@@ -198,6 +198,8 @@ CHE MCP is built for the Argentine developer community first.
 
 We build AI infrastructure, MCP ecosystems, and data intelligence for Latin America.
 
+**Built with [Gentle AI](https://gentle.ai)** — Spec-Driven Development (SDD) and Engram persistent memory. Special thanks to Alan for the methodology.
+
 ---
 
 ## 📜 License
