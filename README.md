@@ -136,6 +136,24 @@ All running on **TypeScript + Node.js 24** with the official `@modelcontextproto
 
 ---
 
+## 🏗️ Built for the Next MCP Standard
+
+The Model Context Protocol is undergoing its biggest architectural update in July 2026 — new mandatory **Streamable HTTP transport**, **stateless server architecture**, and **standardized authentication**. Most MCP servers are still migrating from the legacy stdio + in-process model.
+
+**CHE MCP was architected for the new protocol from day one:**
+
+| Standard | Status | Implementation |
+|----------|:------:|----------------|
+| **Streamable HTTP Transport** | ✅ Ready | HTTP server with bidirectional streaming, REST API, dashboard |
+| **SDK v1.29.0 + `registerTool` API** | ✅ Adopted | Dynamic tool registration, latest MCP SDK |
+| **Stateless Architecture** | ✅ Designed | No server-side session state, JWT-based authentication |
+| **API Key + Scope Validation** | ✅ Built-in | Per-key rate limiting, domain-level access control |
+| **OpenTelemetry Tracing** | ✅ Integrated | Distributed tracing across HTTP server + stdio bridge |
+
+While the MCP ecosystem migrates to the new standard, CHE MCP is already running on it — production-ready for the July 2026 cutoff.
+
+---
+
 ## 🛠️ Tech Stack
 
 | Layer | Technology |
